@@ -1,0 +1,2 @@
+#!/bin/sh
+python "${BASH_SOURCE%/*}/convert_to_snake_case.py" "$@" | jq "."
